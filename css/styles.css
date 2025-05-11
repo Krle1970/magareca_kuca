@@ -10966,14 +10966,13 @@ html {
   font-size: 1.5rem;
   color: #6c757d;
 }
-.masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
-  background-image: url('../assets/img/Pozadina.png');
-  background-size: cover; /* Pokrij ceo ekran */
-  background-position: center; /* Poravnaj sliku u centru */
-  background-repeat: no-repeat; /* Ne ponavljaj sliku */
+.custom-bg {
+  background-image: url('assets/img/Pozadina.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 .masthead .masthead-heading {
   font-size: 2.75rem;
